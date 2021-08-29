@@ -22,7 +22,7 @@ public class FoodStation extends Fixed {
 	public FoodStation(float x, float y, GameWorld gw) {
 		super(x, y);
 		rand = new Random();
-		capacity = rand.nextInt(400) + 400;  //random number between 30 and 45 -> 400 and 800
+		capacity = rand.nextInt(400) + 400; 
 		color = ColorUtil.GREEN;
 		size = capacity / 20;
 		selected = false;
